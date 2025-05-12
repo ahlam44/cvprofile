@@ -1,0 +1,109 @@
+body {
+    font-family:serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+    background-image :url(../../../../../Downloads/background.jpeg);
+    background-repeat:repeat;
+}
+header {
+    background-color:  #333;
+    color:white;
+    padding: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+.profile {
+    margin-top: 10px;
+}
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid #333;
+    float:right ;
+    object-fit: cover;
+}
+
+h2 {
+    color:#c95c6cbf;
+    font-size:30px;
+}
+
+ul{
+    list-style-type: none ;
+    padding:3px;
+}
+/* under about me */
+li {
+    font-size: 1.3em;
+    margin:80px 0 ;
+
+}
+
+/* Contact button style */
+.contact-btn {
+    background-color: #c95c6cbf;
+    color:rgb(0, 0, 0);
+    padding: 10px 20px; /* button size*/
+    text-decoration: none;
+    border-radius: 20px; /*button bend range*/
+    display:inline-block;
+    margin-top:10px ;/* the distance between the button and the word*/
+}
+
+.section-divider {
+    height: 2px;
+    background-color: #444444;
+    margin: 130px 0;
+
+}
+h3 {
+    color: #c95c6cbf;
+    margin-top:70px ;
+    font-size:30px;
+    padding-left: 15px;
+    text-align: left;
+    direction: 1tr;
+    
+    
+}
+
+.info-list {
+    font-family:tahoma;
+    list-style-type: disc;
+    padding-left: 40px;
+    text-align: left;
+    
+    font-size: 1em;
+    direction: 1tr; /*left to right*/
+}
+
+
+p {
+    font-family:tahoma;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 1.0em;
+    direction: 1tr; 
+    
+}
+
+tbody tr {
+    background-color: rgb(199, 199, 199);
+    border-bottom: 1px solid white;
+    color:white;
+}
+tbody td {
+    padding: 0.75em;
+}
+tbody tr:nth-child(odd){
+    background-color :#9e9e9e;
+}
+tbody tr:hover {
+    background-color: #9e9e9e;
+    color:black;
+}
